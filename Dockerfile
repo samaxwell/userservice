@@ -6,5 +6,3 @@ ADD target/UserService-0.0.1.jar /usr/local/app/
 ADD scripts/run.sh run.sh
 RUN chmod +x run.sh
 CMD ./run.sh
-
-#ENTRYPOINT ["java","-jar","/usr/local/app/UserService-0.0.1.jar"]
