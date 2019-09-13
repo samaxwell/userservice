@@ -1,3 +1,12 @@
 spring:
-   application:
-      name: userservice
+  application:
+    name: userservice
+
+  profiles:
+    active: dev 
+
+  cloud:
+    config:
+      label: 'develop'
+      uri: 'http://localhost:8888'
+#      fail-fast: true
